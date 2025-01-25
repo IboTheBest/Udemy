@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "c9a6",
+      "email": "cybergenyus@gmail.com",
+      "name": "Ibrohim",
+      "password": "Ibrohiimjon@1"
+    },
+    {
+      "id": "4fcc",
+      "email": "ibrohim@gmail.com",
+      "name": "IboTheBest",
+      "password": "Ibrohimjon@1"
+    },
+    {
+      "id": "f76e",
+      "email": "sadriggi@gmail.com",
+      "name": "Salom",
+      "password": "123"
+    },
+    {
+      "id": "7107",
+      "email": "dasdasd@gmail.com",
+      "name": "12312312",
+      "password": "12312312"
+    },
+    {
+      "id": "f96b",
+      "email": "dasdasda@asdad.com",
+      "name": "1111",
+      "password": "isadasdasd"
+    }
+  ],
+  "teachers": {}
+}
