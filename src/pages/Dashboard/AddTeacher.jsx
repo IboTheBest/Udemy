@@ -1,6 +1,6 @@
 import React, {  useState } from 'react'
 import LoadingBtn from '../../components/LoadingBtn'
-import noImg from '../../assets/images/noIMg.jpg'
+import noImg from '../../assets/images/noImg.jpg'
 import axios from 'axios'
 import { Navigate, useNavigate } from 'react-router-dom'
 const AddTeacher = () => {

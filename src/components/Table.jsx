@@ -2,7 +2,7 @@ import React from 'react'
 import user from '../assets/images/user.webp'
 import { useNavigate } from 'react-router-dom'
 
-const Table = ({ teachers }) => {
+const CustomizedTables = ({ teachers }) => {
   const navigate = useNavigate()
   return (
     <div className="overflow-hidden rounded-lg">
@@ -40,4 +40,4 @@ const Table = ({ teachers }) => {
   )
 }
 
-export default Table
+export default CustomizedTables

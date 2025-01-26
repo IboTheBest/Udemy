@@ -33,11 +33,10 @@ const SinglePage = () => {
                 <button className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors">
                   <span className="w-6 h-6 border-2 border-gray-600 rounded-full flex items-center justify-center">
                     <span className="w-2 h-2 bg-gray-600 rounded-full translate-x-1 -translate-y-1" />
-                    <Phone/>
                   </span>
                 </button>
                 <button className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors">
-                  <Icon1/>
+                  <Phone/>
                 </button>
               </div>
             </div>

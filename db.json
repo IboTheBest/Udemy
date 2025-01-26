@@ -8,6 +8,16 @@
     }
   ],
   "teachers": [
-   
+    {
+      "id": "5387",
+      "name": "Ibrohim",
+      "email": "cybergenyus@gmail.com",
+      "subject": "Mathematics",
+      "about": "men Sadriddinov Ibrohim",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "18",
+      "avatar": "blob:http://localhost:5173/d9628cef-68bb-492d-a9c7-fca481b90948"
+    }
   ]
 }

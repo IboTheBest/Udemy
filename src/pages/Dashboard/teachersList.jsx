@@ -4,7 +4,6 @@ import noTeachersImg from '../../assets/images/noTeachersImg.png'
 import CustomizedTables from '../../components/Table'
 import { Context } from '../../context/Context'
 import LoadingBtn from '../../components/LoadingBtn'
-import { useNavigate } from 'react-router-dom'
 const teachersList = () => {
     const { teachers } = useContext(Context)
     const [search, setSearch] = useState("")
