@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
 import { Button } from 'antd';
-const LoadingBtn = ({title}) => {
+const LogginOutBtn = ({title}) => {
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {
+    setTimeout(() => {
+        localStorage.removeItem("token")
+    }, 1000);
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
     setLoadings((prevLoadings) => {
       const newLoadings = [...prevLoadings];
       newLoadings[index] = true;
@@ -17,9 +23,9 @@ const LoadingBtn = ({title}) => {
     }, 1000);
   };
   return (
-      <Button className='font-semibold' type="primary" htmlType='Submit' size='large' loading={loadings[0]} onClick={() => enterLoading(0)}>
+      <Button className='font-semibold' type="primary" htmlType='Submit' size='large' loading={loadings[0]}onClick={() => enterLoading(0)}>
          {title}
         </Button>
     );
 };
-export default LoadingBtn;
+export default LogginOutBtn;
