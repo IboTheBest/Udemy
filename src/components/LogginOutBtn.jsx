@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import { Button } from 'antd';
-const LogginOutBtn = ({title}) => {
+import { useNavigate } from 'react-router-dom';
+const LogginOutBtn = ({ title, type, extraClass }) => {
+  const Navigate = useNavigate()
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {
     setTimeout(() => {
-        localStorage.removeItem("token")
+      localStorage.removeItem("token")
     }, 1000);
     setTimeout(() => {
+      Navigate("/")
       window.location.reload();
     }, 1000);
     setLoadings((prevLoadings) => {
@@ -23,9 +26,9 @@ const LogginOutBtn = ({title}) => {
     }, 1000);
   };
   return (
-      <Button className='font-semibold' type="primary" htmlType='Submit' size='large' loading={loadings[0]}onClick={() => enterLoading(0)}>
-         {title}
-        </Button>
-    );
+    <Button className={`font-semibold ${extraClass}`} type={type} htmlType='Button' size='large' loading={loadings[0]} onClick={() => enterLoading(0)}>
+      {title}
+    </Button>
+  );
 };
 export default LogginOutBtn;

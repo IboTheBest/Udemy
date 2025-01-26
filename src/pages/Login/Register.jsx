@@ -17,21 +17,17 @@ const Register = () => {
       name: e.target.username.value,
       password: e.target.password.value
     }
-    const newUser = users.some(item=> item.name == data.name && data.email == item.email)
-    if(newUser){
+    const newUser = users.some(item => item.name == data.name && data.email == item.email)
+    if (newUser) {
       toast.error("this user already exists")
-    }else{
+    } else {
       axios.post("http://localhost:3000/users", data)
       navigate(-1)
       setTimeout(() => {
         window.location.reload();
       }, 1000);
     }
-    console.log(newUser);
-    
   }
-
-  console.log(users);
 
   return (
     <div className='bg-[#FCFAFA] flex justify-center items-center h-[100vh]'>
@@ -46,7 +42,7 @@ const Register = () => {
             <Input type={"password"} placeholder={"Create your Password"} name={"password"} />
             <LoadingBtn title={"Sign up"} />
           </form>
-          <Link to={PATH.login} className='text-[#2D88D4] inline-block mt-[14px]'>Sign up</Link>
+          <Link to={PATH.login} className='text-[#2D88D4] inline-block mt-[14px]'>Sign in</Link>
         </div>
       </div>
     </div>

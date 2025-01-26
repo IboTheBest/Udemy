@@ -1,13 +1,30 @@
 import React, { useState } from 'react';
 import { Button } from 'antd';
+import { PATH } from '../hooks/usePath';
+import { useLocation, useNavigate } from 'react-router-dom';
 const LoadingBtn = ({title}) => {
+  
   const [loadings, setLoadings] = useState([]);
+  const Located = useLocation().pathname
+  const Navigate = useNavigate()
   const enterLoading = (index) => {
-    setLoadings((prevLoadings) => {
-      const newLoadings = [...prevLoadings];
-      newLoadings[index] = true;
-      return newLoadings;
-    });
+    if(Located == PATH.teachers){
+      setTimeout(() => {
+        Navigate(PATH.addteacher)
+      }, 1000);
+      setLoadings((prevLoadings) => {
+        const newLoadings = [...prevLoadings];
+        newLoadings[index] = true;
+        return newLoadings;
+      });
+      
+    }else{
+      setLoadings((prevLoadings) => {
+        const newLoadings = [...prevLoadings];
+        newLoadings[index] = true;
+        return newLoadings;
+      });
+    }
     setTimeout(() => {
       setLoadings((prevLoadings) => {
         const newLoadings = [...prevLoadings];

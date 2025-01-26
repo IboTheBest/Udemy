@@ -19,8 +19,6 @@ const Login = () => {
     const logUser = users.some(
       (item) => item.name == data.login && item.password == data.password
     );
-    console.log(logUser);
-
     if (logUser) {
       setTimeout(() => {
         setToken(data);
@@ -30,8 +28,6 @@ const Login = () => {
       toast.error("Invalid username or password.");
     }
   }
-  console.log(users);
-
   return (
     <div className='bg-[#FCFAFA] flex justify-center items-center h-[100vh]'>
       <Toaster position="top-center" />

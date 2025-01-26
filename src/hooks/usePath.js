@@ -6,9 +6,10 @@ export const PATH ={
     features: "/features",
     settings: "/settings",
     students: "/sutdents",
-    teachers: "/students",
+    teachers: "/teachers",
     login: "/",
-    register: "/register"
-
+    register: "/register",
+    addteacher: "/teachers/add",
+    singlePage:"teachers/:singlePage"
 }
 
