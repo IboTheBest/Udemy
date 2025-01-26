@@ -18,6 +18,38 @@
       "gender": "Male",
       "age": "18",
       "avatar": "blob:http://localhost:5173/d9628cef-68bb-492d-a9c7-fca481b90948"
+    },
+    {
+      "id": "a61c",
+      "name": "Sadridnov",
+      "email": "cybergenyus@gmail.com",
+      "subject": "Mathematics",
+      "about": "qwdqwdqwdqwdqwdwqdqwdqwdq",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "12",
+      "avatar": "blob:https://imtixon-6oy-dashboard.vercel.app/02939f12-d48e-408c-9f70-a5ad9aaa61ee"
+    },
+    {
+      "id": "7fa0",
+      "name": "Ibrohim",
+      "email": "cybergenyus@gmail.com",
+      "subject": "Mathematics",
+      "about": "qwdqwdqw",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "23",
+      "avatar": "blob:https://imtixon-6oy-dashboard-47ad8p7b8-ibrohims-projects-b373a80e.vercel.app/a8fbbb77-5862-4c71-b292-bf5fc5002a38"
+    },
+    {
+      "id": "71f3",
+      "name": "Ibrohim",
+      "email": "sadasdas@sf",
+      "subject": "History",
+      "about": "saddasdad",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "17"
     }
   ]
 }

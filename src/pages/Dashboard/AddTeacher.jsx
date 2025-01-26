@@ -3,6 +3,7 @@ import LoadingBtn from '../../components/LoadingBtn'
 import noImg from '../../assets/images/noImg.jpg'
 import axios from 'axios'
 import { Navigate, useNavigate } from 'react-router-dom'
+import { PATH } from '../../hooks/usePath'
 const AddTeacher = () => {
   const [image, setImage] = useState()
   const navigate = useNavigate()
@@ -41,7 +42,7 @@ const AddTeacher = () => {
       avatar:image
     }
     axios.post("http://localhost:3000/teachers", data)
-    navigate(-1)
+    navigate(PATH.teachers)
     setTimeout(() => {
       window.location.reload();
     }, 1000);    
