@@ -42,7 +42,9 @@ const AddTeacher = () => {
       avatar:image
     }
     axios.post("http://localhost:3000/teachers", data)
-    navigate(PATH.teachers)
+    setTimeout(() => {
+      navigate(PATH.teachers)
+    }, 1000);
     setTimeout(() => {
       window.location.reload();
     }, 1000);    

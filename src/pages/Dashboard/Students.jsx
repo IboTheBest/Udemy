@@ -2,7 +2,9 @@ import React from 'react'
 
 const Students = () => {
   return (
-    <div>Students</div>
+    <div className='flex h-[100%] items-center justify-center'>
+      <h2 className='text-[60px] font-black text-center'>Coming soon</h2>
+    </div>
   )
 }
 

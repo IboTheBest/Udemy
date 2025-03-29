@@ -6,6 +6,7 @@ import { Billing, Dashboard, Exams, Settings_and_profile, Students, Teachers } f
 import AddTeacher from "../pages/Dashboard/AddTeacher"
 import TeachersList from '../pages/Dashboard/teachersList'
 import SinglePage from "../pages/Dashboard/SinglePage"
+import Features from "../pages/Dashboard/Features"
 
 export const dashboardList = [
     {
@@ -66,6 +67,13 @@ export const dashboardList = [
         id: 9,
         element: <SinglePage />,
         path: PATH.singlePage,
+        isNested: false,
+        children: []
+    },
+    {
+        id: 10,
+        element: <Features />,
+        path: PATH.features,
         isNested: false,
         children: []
     },

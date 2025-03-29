@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "6963",
-      "email": "NewUser@gmail.com",
+      "email": "ibrohimjon@gmail.com",
       "name": "Ibrohim",
       "password": "Ibrohimjon@1"
     }
@@ -50,6 +50,109 @@
       "class": "J SS 1",
       "gender": "Male",
       "age": "17"
+    },
+    {
+      "id": "c98b",
+      "name": "Sadriddinvo",
+      "email": "123123123@aga",
+      "subject": "Mathematics",
+      "about": "dadadasasdasdasda",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "21"
+    },
+    {
+      "id": "0348",
+      "name": "salom",
+      "email": "salom@gmail.com",
+      "subject": "Biology",
+      "about": "salom meni ismim salom ",
+      "class": "SS 1",
+      "gender": "Male",
+      "age": "12",
+      "avatar": "blob:http://localhost:5173/3147a0c6-4109-4b54-a2bd-a4e1f24425a5"
+    },
+    {
+      "id": "01d9",
+      "name": "asdasda",
+      "email": "sdada@sd",
+      "subject": "Mathematics",
+      "about": "fsfsdfsdfsdf",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "12",
+      "avatar": "blob:http://localhost:5173/52a6bc3d-810b-4f2e-a42e-d1f23124f9b6"
+    },
+    {
+      "id": "a1ff",
+      "name": "dwqdq",
+      "email": "qdd@gama",
+      "subject": "Mathematics",
+      "about": "qwdsqwdqwdqwd",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "12"
+    },
+    {
+      "id": "d37f",
+      "name": "e21e12e12",
+      "email": "12e1e@gmail.com",
+      "subject": "Mathematics",
+      "about": "qdwqdqdwqdw",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "12"
+    },
+    {
+      "id": "8edd",
+      "name": "Sadriddinvo",
+      "email": "12w1@m",
+      "subject": "Mathematics",
+      "about": "qweqweeqweq",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "13"
+    },
+    {
+      "id": "7f90",
+      "name": "qwdqdqw",
+      "email": "dqwd@gmail",
+      "subject": "Mathematics",
+      "about": "dqwdqdqwdwqdqwdqwdw",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "132"
+    },
+    {
+      "id": "2e14",
+      "name": "e21e12e21",
+      "email": "eewaed@gasa",
+      "subject": "English",
+      "about": "wqdqwdqwdqwdqwwqdqdqwdqwdqwdqwd",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "123"
+    },
+    {
+      "id": "7cb6",
+      "name": "Ibrohim",
+      "email": "cybergenyus@gmail.com",
+      "subject": "Mathematics",
+      "about": "Salom birmacffweiufjwejfwfiiwefjiwfjifjwefweoiejoai;rijanfjvnfjvnujeuherughuerghuerhguerheurhrehguerghuerguerguergreuhuerhguhergherguerhguuerguerughuerhguehrguherugherughuerghuerhguerhguerhguerghureghuerhguerhguerhguerhguerhguerhguerhgureghuerhguerheruosdijfsjoisdjfiijewiojfdisofjdkljiowejfjeiowfjidjsklfjkdjfkdjfksfj dsfsldk jsdkf ds sdkjlfj ksdljklsd lj sdlk klsdjf ksdj klsjskdl jsdklfjksldj ksdksdfsldfjklsdfjklsdjfklsdklf sdjfklds klfjks dljf skldfj ksdlfj lkdskl dskl d ",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "13",
+      "avatar": "blob:http://localhost:5173/47b9b988-9c01-4582-8440-cec4548b66f6"
+    },
+    {
+      "id": "d35b",
+      "name": "sqsqws",
+      "email": "sqwsqws@ewd",
+      "subject": "Mathematics",
+      "about": "wdewdwed",
+      "class": "J SS 1",
+      "gender": "Male",
+      "age": "123"
     }
   ]
 }

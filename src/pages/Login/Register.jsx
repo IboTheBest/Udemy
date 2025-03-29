@@ -17,7 +17,7 @@ const Register = () => {
       name: e.target.username.value,
       password: e.target.password.value
     }
-    const newUser = users.some(item => item.name == data.name && data.email == item.email)
+    const newUser = users.some(item => item.name == data.name || data.email == item.email)
     if (newUser) {
       toast.error("this user already exists")
     } else {

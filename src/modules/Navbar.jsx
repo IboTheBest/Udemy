@@ -44,7 +44,7 @@ const Navbar = () => {
     ]
   return (
     <nav className='bg-[#152259] h-[100vh] overflow-y-auto w-[20%]'>
-        <img src={Icon} width={65} className='mx-auto mt-[26px]' height={65} alt="Site logo" />
+        <img src={Icon} width={65} className='mx-auto disallow mt-[26px]' height={65} alt="Site logo" />
             <h3 className='text-center text-white mt-[22px] text-[14px] mb-[27px] font-semibold'>Udemy Inter. school</h3>
         <div className='flex gap-[9px] pt-[16px] border-t-[1px] border-gray-100 flex-col mx-auto'>
            {NavList.map(item=>(

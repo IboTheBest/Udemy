@@ -19,7 +19,7 @@ const LogginOutBtn = ({ title, type, extraClass }) => {
     });
     setTimeout(() => {
       setLoadings((prevLoadings) => {
-        const newLoadings = [...prevLoadings];
+        const newLoadings = [...prevLoadings]
         newLoadings[index] = false;
         return newLoadings;
       });
